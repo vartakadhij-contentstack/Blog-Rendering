@@ -1,0 +1,145 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #45bafa;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    top: 0px;
+  }
+  .logo {
+    margin-left: 5%;
+  }
+  .logo-image {
+    width: 20vh;
+    height: auto;
+    display: block;
+  }
+  .navigation {
+    margin-right: 5%;
+    font-size: 3vh;
+  }
+  .navigation ul {
+    padding: 0px;
+  }
+  .nav-item {
+    display: inline;
+    padding: 3vw;
+    margin: 5px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-link:hover{
+    color: #17a7f5;
+    
+  }
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: left;
+    width: 60%;
+    height: auto;
+    text-align: justify;
+    padding: 0px 10vh;
+    margin: 5%;
+    margin-top: 2vh;
+    padding: 10vh 0px;
+}
+
+/* .main-section {
+    text-align: justify;
+    padding: 0px 10vh;
+    margin: 5%;
+    margin-top: 2vh;
+  }
+
+  .section-content {
+    padding: 10vh 0px;
+  } */
+
+aside{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    float: none;
+    padding: 20px 0px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    /* margin: 10vh 100px; */
+  }
+
+  .copyright-section{
+      text-align: justify;
+  }
+
+  .social-media a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .social-media i{
+    text-align: space-between;
+    padding: 3vw;
+  }
+
+.blog-image{
+    width: 50%;
+    height: 50vh;
+    border: 5px solid grey;
+    margin: 10px auto;
+}
+
+.blog-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-content{
+    text-align: center;
+} 
+
+.blog-content h1 {
+    font-size: 3vw;
+}
+
+.blog-content p {
+    font-size: 1.5vw;
+    text-align: justify;
+}
